@@ -16,7 +16,12 @@ This project implements various homeostatic mechanisms in a spiking neural netwo
 
 To run the project, clone this repository and install the required dependencies:
 
+### Installation
+
 ```bash
 git clone https://github.com/<your-username>/<your-repository-name>.git
 cd <your-repository-name>
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
+
