@@ -11,6 +11,7 @@ This project implements various homeostatic mechanisms in a spiking neural netwo
 - **Global Inhibition**: Scales down network-wide synaptic strengths when activity exceeds a threshold.
 
 ## Usage
+In the network.py you can acitvate or deactive the homeostatic function by setting them to True or False.
 
 ### Installation
 
@@ -19,9 +20,13 @@ To run the project, clone this repository and install the required dependencies:
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository-name>.git
-cd <your-repository-name>
+git clone https://github.com/Edogor/Homeostatic-Methods-Modeling-.git
+cd Homeostatic-Methods-Modeling
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 
+```
+### execution
+```bash
+python network.py
